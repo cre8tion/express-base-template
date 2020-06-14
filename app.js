@@ -1,6 +1,8 @@
 const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
+const helmet = require('helmet')
+const hpp = require('hpp')
 import config from './config'
 import routes from './api'
 
@@ -9,7 +11,11 @@ async function startServer(){
 
     // Useful if you're behind a reverse proxy (Heroku, Bluemix, AWS ELB, Nginx, etc)
     // It shows the real origin IP in the heroku or Cloudwatch logs
-    app.enable('trust proxy');
+    app.enable('trust proxy')
+    // For Security
+    app.use(helmet)
+    // Prevent HTTP Parameter Pollution
+    app.use(hpp())
 
     // Enable ALL CORS Requests (For development)
     app.use(cors())
