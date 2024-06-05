@@ -305,13 +305,13 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@babel/node@^7.22.10":
-  version "7.22.10"
-  resolved "https://registry.yarnpkg.com/@babel/node/-/node-7.22.10.tgz#865ef915633790b1e11c091896bb44ab36cd14b6"
-  integrity sha512-FpSgdjIPabpEetDxtKYAcXCs0qRh12S2D40rhpRoo0w5h7/7Tu2ZroaX99cbKFNDODiSs484sZ1q0kutJbZ2iQ==
+"@babel/node@^7.24.7":
+  version "7.24.7"
+  resolved "https://registry.yarnpkg.com/@babel/node/-/node-7.24.7.tgz#e3aa97630655234764c19a54f6a974ef81bd9b64"
+  integrity sha512-BCYNLxUQjGTgy8bAq12jy+Lt8soGWa/5u3s7U3aTVXxviIp0YVS+/Wm0b4eaitLVvetYrEoAiRF0QOk4WKsHAQ==
   dependencies:
-    "@babel/register" "^7.22.5"
-    commander "^4.0.1"
+    "@babel/register" "^7.24.6"
+    commander "^6.2.0"
     core-js "^3.30.2"
     node-environment-flags "^1.0.5"
     regenerator-runtime "^0.14.0"
@@ -982,15 +982,15 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/register@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.22.5.tgz#e4d8d0f615ea3233a27b5c6ada6750ee59559939"
-  integrity sha512-vV6pm/4CijSQ8Y47RH5SopXzursN35RQINfGJkmOlcpAtGuf94miFvIPhCKGQN7WGIcsgG1BHEX2KVdTYwTwUQ==
+"@babel/register@^7.24.6":
+  version "7.24.6"
+  resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.24.6.tgz#59e21dcc79e1d04eed5377633b0f88029a6bef9e"
+  integrity sha512-WSuFCc2wCqMeXkz/i3yfAAsxwWflEgbVkZzivgAmXl/MxrXeoYFZOOPllbC8R8WTF7u61wSRQtDVZ1879cdu6w==
   dependencies:
     clone-deep "^4.0.1"
     find-cache-dir "^2.0.0"
     make-dir "^2.1.0"
-    pirates "^4.0.5"
+    pirates "^4.0.6"
     source-map-support "^0.5.16"
 
 "@babel/regjsgen@^0.8.0":
@@ -1869,6 +1869,11 @@ commander@^4.0.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
+
+commander@^6.2.0:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
+  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -3776,10 +3781,15 @@ pify@^4.0.1:
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
 
-pirates@^4.0.4, pirates@^4.0.5:
+pirates@^4.0.4:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.5.tgz#feec352ea5c3268fb23a37c702ab1699f35a5f3b"
   integrity sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==
+
+pirates@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.6.tgz#3018ae32ecfcff6c29ba2267cbf21166ac1f36b9"
+  integrity sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==
 
 pkg-dir@^3.0.0:
   version "3.0.0"
