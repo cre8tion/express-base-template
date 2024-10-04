@@ -23,7 +23,7 @@
     "@babel/core": "^7.23.5",
     "@babel/node": "^7.25.0",
     "@babel/preset-env": "^7.23.9",
-    "core-js": "^3.38.0",
+    "core-js": "^3.38.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^4.2.1",
