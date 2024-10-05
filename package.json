@@ -19,7 +19,7 @@
     "hpp": "^0.2.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.24.5",
+    "@babel/cli": "^7.25.7",
     "@babel/core": "^7.25.7",
     "@babel/node": "^7.25.0",
     "@babel/preset-env": "^7.25.7",
